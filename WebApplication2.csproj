@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A42791A-4102-43D7-A42C-65EA87BBFF0A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.aspx" />
+    <Content Include="about.html" />
+    <Content Include="assets\css\styles.css" />
+    <Content Include="assets\css\swiper-bundle.min.css" />
+    <Content Include="assets\img\about1.jpg" />
+    <Content Include="assets\img\about2.jpg" />
+    <Content Include="assets\img\discover1.jpg" />
+    <Content Include="assets\img\discover2.jpg" />
+    <Content Include="assets\img\discover3.jpg" />
+    <Content Include="assets\img\discover4.jpg" />
+    <Content Include="assets\img\experience1.jpg" />
+    <Content Include="assets\img\experience2.jpg" />
+    <Content Include="assets\img\favicon.png" />
+    <Content Include="assets\img\home1.jpg" />
+    <Content Include="assets\img\home2.jpg" />
+    <Content Include="assets\img\place1.jpg" />
+    <Content Include="assets\img\place2.jpg" />
+    <Content Include="assets\img\place3.jpg" />
+    <Content Include="assets\img\place4.jpg" />
+    <Content Include="assets\img\place5.jpg" />
+    <Content Include="assets\img\sponsors1.png" />
+    <Content Include="assets\img\sponsors2.png" />
+    <Content Include="assets\img\sponsors3.png" />
+    <Content Include="assets\img\sponsors4.png" />
+    <Content Include="assets\img\sponsors5.png" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\scrollreveal.min.js" />
+    <Content Include="assets\js\swiper-bundle.min.js" />
+    <Content Include="assets\video\video.mp4" />
+    <Content Include="bali.aspx" />
+    <Content Include="blog.html" />
+    <Content Include="borabora.aspx" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\ekko-lightbox.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\slick-theme.css" />
+    <Content Include="css\slick.css" />
+    <Content Include="css\style.css" />
+    <Content Include="dist\index.html" />
+    <Content Include="dist\script.js" />
+    <Content Include="dist\style.css" />
+    <Content Include="explore.aspx" />
+    <Content Include="gallery.html" />
+    <Content Include="GlobeTrekker.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="home2.jpg" />
+    <Content Include="images\about-img.jpg" />
+    <Content Include="images\b1.jpg" />
+    <Content Include="images\b2.jpg" />
+    <Content Include="images\b3.jpg" />
+    <Content Include="images\client.jpg" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\g1.jpg" />
+    <Content Include="images\g2.jpg" />
+    <Content Include="images\g3.jpg" />
+    <Content Include="images\g4.jpg" />
+    <Content Include="images\g5.jpg" />
+    <Content Include="images\g6.jpg" />
+    <Content Include="images\s1.jpg" />
+    <Content Include="images\s2.jpg" />
+    <Content Include="images\s3.jpg" />
+    <Content Include="images\slider-bg.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\ekko-lightbox.min.js" />
+    <Content Include="js\jquery-3.4.1.min.js" />
+    <Content Include="js\slick.min.js" />
+    <Content Include="kuta.jpg" />
+    <Content Include="LICENSE.txt" />
+    <Content Include="login.aspx" />
+    <Content Include="login.css" />
+    <Content Include="login.html" />
+    <Content Include="login.js" />
+    <Content Include="more.aspx" />
+    <Content Include="new pp.jpg" />
+    <Content Include="Orange Black Digital Marketing Agency Instagram Post %281%29.png" />
+    <Content Include="Orange Black Digital Marketing Agency Instagram Post.png" />
+    <Content Include="preview.png" />
+    <Content Include="saraswati-temple-in-ubud.jpg" />
+    <Content Include="script.js" />
+    <Content Include="service.html" />
+    <Content Include="src\index.html" />
+    <Content Include="src\script.ts" />
+    <Content Include="style.css" />
+    <Content Include="team.aspx" />
+    <Content Include="Text website travel.txt" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WhatsApp Image 2024-06-06 at 09.52.52_01cef64c.jpg" />
+    <Content Include="WhatsApp Image 2024-06-06 at 09.52.52_50ca9ea3.jpg" />
+    <Content Include="WhatsApp Image 2024-06-06 at 09.52.52_563f0df3.jpg" />
+    <Content Include="WhatsApp Image 2024-06-06 at 09.52.52_7932733e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bali.aspx.cs">
+      <DependentUpon>bali.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bali.aspx.designer.cs">
+      <DependentUpon>bali.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="borabora.aspx.cs">
+      <DependentUpon>borabora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="borabora.aspx.designer.cs">
+      <DependentUpon>borabora.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="explore.aspx.cs">
+      <DependentUpon>explore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="explore.aspx.designer.cs">
+      <DependentUpon>explore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GlobeTrekker.aspx.cs">
+      <DependentUpon>GlobeTrekker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GlobeTrekker.aspx.designer.cs">
+      <DependentUpon>GlobeTrekker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="more.aspx.cs">
+      <DependentUpon>more.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="more.aspx.designer.cs">
+      <DependentUpon>more.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="team.aspx.cs">
+      <DependentUpon>team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="team.aspx.designer.cs">
+      <DependentUpon>team.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\scss\styles.scss" />
+    <None Include="css\style.css.map" />
+    <None Include="css\style.scss" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\octin_sports_rg.ttf" />
+    <None Include="README.md" />
+    <None Include="src\style.scss" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10338</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
